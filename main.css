@@ -1,0 +1,75 @@
+body {
+	background-color: #0F141F;
+	margin: 0;
+}
+
+/*  HEADER  */
+.hero-image {
+	padding-bottom: 2%;
+	width: 100%;
+}
+
+/*  BUTTON   */
+.btns {
+	display: inline-block;
+}
+
+._btn {
+	width: 70%;
+}
+
+/*  CONTACT  */
+.contact_icns {
+	padding-left: 10px;
+}
+
+.icn {
+	width: 35px;
+	height: 35px;
+}
+
+/*  TITLE & VIDEO  */
+.title {
+	padding: 20px 0 40px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.player {
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+	text-align: center;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+/*  GRID OF THREE  */
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_3 { width: 100%; }
+}
+
+
+
+
