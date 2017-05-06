@@ -98,8 +98,7 @@ body {
 
 .player {
 	width: 100%;
-	text-align: center;
-	margin-bottom: 100px;
+	margin: 0 50% 100px 50%;
 }
 
 /*  SECTIONS  */
