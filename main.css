@@ -96,10 +96,31 @@ body {
 	text-align: center;
 }
 
-.player {
+/*.player {
 	width: 100%;
 	text-align: center;
 	margin-bottom: 100px;
+}*/
+
+.player-container {
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+.player {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.player iframe, .player object, .player embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 90%;
 }
 
 /*  SECTIONS  */
@@ -138,6 +159,7 @@ body {
 @media only screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_1_of_3 { width: 100%; }
+	.player-container { margin-right: 5%; margin-left: 5%; }
 }
 
 
